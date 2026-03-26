@@ -148,7 +148,7 @@ const BrowserPrototype = () => {
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <HeroIcon
-                    className="w-8 h-8 md:w-10 md:h-10 text-white transition-all duration-500"
+                    className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-white transition-all duration-500"
                     strokeWidth={1.5}
                     style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.4))" }}
                   />
