@@ -106,16 +106,16 @@ const BrowserPrototype = () => {
             </div>
 
             {/* Main content */}
-            <div className="flex-1 flex flex-col items-center justify-center text-center px-6 py-8 relative -ml-8 md:-ml-16">
+            <div className="flex-1 flex flex-col items-center justify-center text-center px-6 sm:px-10 lg:px-16 py-8 relative -ml-8 md:-ml-16">
               {/* Glass hexagon icon */}
-              <div className="mb-6 relative transition-all duration-500">
+              <div className="mb-8 lg:mb-10 relative transition-all duration-500">
                 <div
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 -z-10 blur-3xl rounded-full transition-all duration-700"
+                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-40 sm:h-40 lg:w-52 lg:h-52 -z-10 blur-3xl rounded-full transition-all duration-700"
                   style={{ background: displayAccent, opacity: 0.35 }}
                 />
                 <svg
                   viewBox="0 0 200 200"
-                  className="w-20 h-20 md:w-24 md:h-24 transition-all duration-500"
+                  className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 transition-all duration-500"
                   style={{
                     filter: `drop-shadow(0 8px 30px ${displayAccent.replace(")", ",0.4)")}) drop-shadow(0 2px 8px rgba(0,0,0,0.5))`,
                   }}
