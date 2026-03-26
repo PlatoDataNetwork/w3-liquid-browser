@@ -106,16 +106,16 @@ const BrowserPrototype = () => {
             </div>
 
             {/* Main content */}
-            <div className="flex-1 flex flex-col items-center justify-center text-center px-6 py-8 relative -ml-8 md:-ml-16">
+            <div className="flex-1 flex flex-col items-center justify-center text-center px-6 sm:px-10 lg:px-16 py-8 relative -ml-8 md:-ml-16">
               {/* Glass hexagon icon */}
-              <div className="mb-6 relative transition-all duration-500">
+              <div className="mb-8 lg:mb-10 relative transition-all duration-500">
                 <div
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 -z-10 blur-3xl rounded-full transition-all duration-700"
+                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 sm:w-40 sm:h-40 lg:w-52 lg:h-52 -z-10 blur-3xl rounded-full transition-all duration-700"
                   style={{ background: displayAccent, opacity: 0.35 }}
                 />
                 <svg
                   viewBox="0 0 200 200"
-                  className="w-20 h-20 md:w-24 md:h-24 transition-all duration-500"
+                  className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 transition-all duration-500"
                   style={{
                     filter: `drop-shadow(0 8px 30px ${displayAccent.replace(")", ",0.4)")}) drop-shadow(0 2px 8px rgba(0,0,0,0.5))`,
                   }}
@@ -148,7 +148,7 @@ const BrowserPrototype = () => {
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <HeroIcon
-                    className="w-8 h-8 md:w-10 md:h-10 text-white transition-all duration-500"
+                    className="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-white transition-all duration-500"
                     strokeWidth={1.5}
                     style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.4))" }}
                   />
@@ -160,21 +160,21 @@ const BrowserPrototype = () => {
                 <>
                   {activeSection === 0 ? (
                     <>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight text-center">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight text-center">
                         Secure Network Protocol for the Next Web.
                       </p>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight mt-1 text-center">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight mt-1 text-center">
                         Agentic Web3 AI Browser
                       </p>
-                      <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-white/40 mt-3 text-center">
+                      <p className="text-sm sm:text-base lg:text-lg uppercase tracking-[0.3em] text-white/40 mt-4 lg:mt-6 text-center">
                         RWA's · Web3AI · Cyber · Data · Compliance
                       </p>
-                      <div className="flex items-center justify-center gap-1.5 mt-2">
-                        <span className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/40">
+                      <div className="flex items-center justify-center gap-2 mt-3">
+                        <span className="text-xs sm:text-sm lg:text-base uppercase tracking-[0.3em] text-white/40">
                           MADE EXCLUSIVELY FOR MAC
                         </span>
                         <div
-                          className="h-3.5 w-3.5 md:h-4 md:w-4 animated-gradient-icon-bright"
+                          className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 animated-gradient-icon-bright"
                           style={{
                             WebkitMaskImage: `url("${APPLE_SVG}")`,
                             WebkitMaskSize: "contain",
@@ -190,10 +190,10 @@ const BrowserPrototype = () => {
                     </>
                   ) : (
                     <>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight text-center transition-all duration-500">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight text-center transition-all duration-500">
                         {section.title}
                       </p>
-                      <p className="text-xl md:text-3xl font-light text-white/45 tracking-tight mt-2 text-center max-w-lg transition-all duration-500 whitespace-pre-line leading-snug">
+                      <p className="text-xl sm:text-2xl lg:text-4xl font-light text-white/45 tracking-tight mt-3 lg:mt-4 text-center max-w-3xl transition-all duration-500 whitespace-pre-line leading-snug">
                         {section.subtitle}
                       </p>
                     </>
@@ -201,10 +201,10 @@ const BrowserPrototype = () => {
                 </>
               ) : (
                 <>
-                  <p className="text-xl md:text-3xl font-light text-white tracking-tight text-center transition-all duration-500">
+                  <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight text-center transition-all duration-500">
                     {displayTitle}
                   </p>
-                  <p className="text-xl md:text-3xl font-light text-white/45 tracking-tight mt-2 text-center max-w-2xl transition-all duration-500 whitespace-pre-line leading-snug">
+                  <p className="text-xl sm:text-2xl lg:text-4xl font-light text-white/45 tracking-tight mt-3 lg:mt-4 text-center max-w-3xl transition-all duration-500 whitespace-pre-line leading-snug">
                     {displaySubtitle}
                   </p>
                 </>
