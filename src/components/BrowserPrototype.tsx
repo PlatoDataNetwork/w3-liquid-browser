@@ -160,21 +160,21 @@ const BrowserPrototype = () => {
                 <>
                   {activeSection === 0 ? (
                     <>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight text-center">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight text-center">
                         Secure Network Protocol for the Next Web.
                       </p>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight mt-1 text-center">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight mt-1 text-center">
                         Agentic Web3 AI Browser
                       </p>
-                      <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-white/40 mt-3 text-center">
+                      <p className="text-sm sm:text-base lg:text-lg uppercase tracking-[0.3em] text-white/40 mt-4 lg:mt-6 text-center">
                         RWA's · Web3AI · Cyber · Data · Compliance
                       </p>
-                      <div className="flex items-center justify-center gap-1.5 mt-2">
-                        <span className="text-[10px] md:text-xs uppercase tracking-[0.3em] text-white/40">
+                      <div className="flex items-center justify-center gap-2 mt-3">
+                        <span className="text-xs sm:text-sm lg:text-base uppercase tracking-[0.3em] text-white/40">
                           MADE EXCLUSIVELY FOR MAC
                         </span>
                         <div
-                          className="h-3.5 w-3.5 md:h-4 md:w-4 animated-gradient-icon-bright"
+                          className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 animated-gradient-icon-bright"
                           style={{
                             WebkitMaskImage: `url("${APPLE_SVG}")`,
                             WebkitMaskSize: "contain",
