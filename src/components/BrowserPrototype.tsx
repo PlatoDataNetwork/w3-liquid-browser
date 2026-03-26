@@ -190,10 +190,10 @@ const BrowserPrototype = () => {
                     </>
                   ) : (
                     <>
-                      <p className="text-xl md:text-3xl font-light text-white tracking-tight text-center transition-all duration-500">
+                      <p className="text-2xl sm:text-3xl lg:text-5xl font-light text-white tracking-tight text-center transition-all duration-500">
                         {section.title}
                       </p>
-                      <p className="text-xl md:text-3xl font-light text-white/45 tracking-tight mt-2 text-center max-w-lg transition-all duration-500 whitespace-pre-line leading-snug">
+                      <p className="text-xl sm:text-2xl lg:text-4xl font-light text-white/45 tracking-tight mt-3 lg:mt-4 text-center max-w-3xl transition-all duration-500 whitespace-pre-line leading-snug">
                         {section.subtitle}
                       </p>
                     </>
